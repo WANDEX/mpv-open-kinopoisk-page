@@ -17,7 +17,7 @@ Copy or symlink the ```.lua``` and ```.py``` files to your mpv scripts folder.\
 On linux your order of actions could look like this:
 ```bash
 mkdir -p ~/Downloads/git/ ~/.config/mpv/scripts/
-git clone https://github.com/WANDEX/mpv-open-kinopoisk-page.git ~/Downloads/git/
+git clone https://github.com/WANDEX/mpv-open-kinopoisk-page.git ~/Downloads/git/mpv-open-kinopoisk-page
 cd ~/Downloads/git/mpv-open-kinopoisk-page/
 ln -rs open-kinopoisk-page.* ~/.config/mpv/scripts/
 ```
