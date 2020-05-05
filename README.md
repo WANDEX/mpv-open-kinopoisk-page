@@ -42,7 +42,7 @@ Or edit this file manually like in commit (depends on your python3 version)\
 ## Credits
 **mpv-open-kinopoisk-page** is inspired/based on [mpv-open-imdb-page](https://github.com/ctlaltdefeat/mpv-open-imdb-page) written by ctlaltdefeat.
 
-And of course thanks to the creators and maintainers of guessit and kinopoiskpy.
+And of course thanks to the creators and maintainers of [guessit](https://github.com/guessit-io/guessit) and [kinopoiskpy](https://github.com/ramusus/kinopoiskpy).
 
 Many thanks to all of them. :heart:
 
