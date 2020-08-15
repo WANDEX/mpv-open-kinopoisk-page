@@ -3,9 +3,7 @@
 
 from sys import argv, exit, stderr
 from webbrowser import open_new_tab
-
 from guessit import guessit
-from kinopoisk.movie import Movie
 
 
 def get_kinopoisk_url(filename):
@@ -14,12 +12,10 @@ def get_kinopoisk_url(filename):
     t = g["title"]
     if "year" in g:
         t = "{} {}".format(t, g["year"])
-    results = Movie.objects.search(t)
-    fid = results[0].id
-    result = Movie(id=fid)
-    url = "/film/{0}/".format(str(result.id))
-    result.set_url(result.title_en, url)
-    return result.get_url(result.title_en)
+    result = t.replace(' ', '+')
+    search_query = "https://www.kinopoisk.ru/index.php?kp_query="
+    search_query += result
+    return search_query
 
 
 if __name__ == "__main__":
