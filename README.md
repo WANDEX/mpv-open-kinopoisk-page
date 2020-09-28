@@ -4,10 +4,10 @@ Script for mpv that opens the kinopoisk page for the currently playing media fil
 It does this by extracting/guessing the relevant metadata from the file name (using [guessit](https://github.com/guessit-io/guessit)), finding it on kinopoisk, and then opening the page in a new tab on your default browser.
 
 ## Requirements
-You need Python 3 installed and in path, as well as the modules ```guessit``` and ```kinopoiskpy```:
+You need Python 3 installed and in path, as well as the module ```guessit```:
 
 ```bash
-pip install guessit kinopoiskpy
+pip install guessit
 ```
 
 ## Install
@@ -42,7 +42,7 @@ Or edit this file manually like in commit (depends on your python3 version)\
 ## Credits
 **mpv-open-kinopoisk-page** is inspired/based on [mpv-open-imdb-page](https://github.com/ctlaltdefeat/mpv-open-imdb-page) written by ctlaltdefeat.
 
-And of course thanks to the creators and maintainers of [guessit](https://github.com/guessit-io/guessit) and [kinopoiskpy](https://github.com/ramusus/kinopoiskpy).
+And of course thanks to the creators and maintainers of [guessit](https://github.com/guessit-io/guessit)
 
 Many thanks to all of them. :heart:
 
