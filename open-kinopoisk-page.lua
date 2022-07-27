@@ -16,5 +16,5 @@ function launch_kinopoisk()
 end
 
 -- change key binding as desired
-mp.add_forced_key_binding('ctrl+K', 'launch_kinopoisk', launch_kinopoisk)
+mp.add_forced_key_binding('alt+ctrl+K', 'launch_kinopoisk', launch_kinopoisk)
 
